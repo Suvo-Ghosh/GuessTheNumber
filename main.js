@@ -8,7 +8,6 @@ const allguesses = document.querySelector('.all-guesses')
 const rst = document.querySelector('.rst')
 const submit = document.querySelector('.submit')
 
-
 form.addEventListener('submit', (e) => {
     e.preventDefault()
     const inputNumberValue = parseInt(inputNumber.value)
